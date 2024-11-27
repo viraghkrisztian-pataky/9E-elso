@@ -1,0 +1,91 @@
+body{
+    background-color: antiquewhite;
+}
+/*.main,.banner,nav,.content{
+    border: 2px solid;
+    padding:15px;
+}*/
+.main{
+    margin: 0 auto;
+    width: 1000px;
+}
+.banner,nav,.content{
+    
+    margin-bottom: 20px;
+}
+.main{
+    border-color: black;
+}
+nav{
+    border-color: rgb(236, 41, 41);
+}
+.banner{
+    border-color: rgb(20, 225, 40);
+}
+.content{
+    border-color: rgb(49, 26, 223);
+    height: 800px;
+}
+nav ul{
+    list-style-type: none;
+    padding:10px;
+    margin: 0;
+    display: block;
+}
+nav li{
+    float: left;
+    margin-right: 10px;
+    background-color: darkseagreen;
+    padding: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.lezaro{
+    clear: both;
+}
+.igazito{
+    margin-right: 300px;;
+}
+nav li:hover{
+    background-color: rgba(6, 70, 41, 0.919);
+    border-radius:15px;
+}
+nav a:hover{
+    color:white;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+}
+nav ul ul li{
+    float: none;
+}
+nav li:hover ul{
+    display:block;
+}
+
+
+
+.banner{
+    font-family: 'Allison';
+    background-color: cadetblue;
+    color:white;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+               0 30px 20px rgba(0,0,0,.1);
+}
